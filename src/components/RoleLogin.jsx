@@ -8,7 +8,7 @@ export const RoleLogin = ({ roleId, onBack, onLoginSuccess }) => {
     management: {
       name: 'Management',
       subtitle: 'Executive Leadership & Governance',
-      customLogo: '/management-logo.png',
+      customLogo: './management-logo.png',
       icon: Building2,
       idLabel: 'Staff ID',
       defaultId: 'MGT-001',
@@ -21,7 +21,7 @@ export const RoleLogin = ({ roleId, onBack, onLoginSuccess }) => {
     library: {
       name: 'Library Section',
       subtitle: 'Central Resource & Circulation Desk',
-      customLogo: '/library-logo.png',
+      customLogo: './library-logo.png',
       icon: BookOpen,
       idLabel: 'Librarian ID',
       defaultId: 'LIB-101',
@@ -34,7 +34,7 @@ export const RoleLogin = ({ roleId, onBack, onLoginSuccess }) => {
     placement: {
       name: 'Placement Cell',
       subtitle: 'Training & Corporate Relations Office',
-      customLogo: '/placement-logo.png',
+      customLogo: './placement-logo.png',
       icon: Briefcase,
       idLabel: 'Placement Officer ID',
       defaultId: 'TPO-501',
@@ -188,7 +188,7 @@ export const RoleLogin = ({ roleId, onBack, onLoginSuccess }) => {
         {/* Card Header */}
         <div className="flex items-center gap-4 mb-6 pb-4 border-b border-slate-100">
           <img
-            src={currentMeta.customLogo || '/avn-logo.png'}
+            src={currentMeta.customLogo || './avn-logo.png'}
             alt={currentMeta.name}
             className="w-16 h-16 object-contain drop-shadow-xs flex-shrink-0"
           />

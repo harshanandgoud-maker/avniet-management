@@ -11,19 +11,19 @@ export const PortalSelection = ({ onSelectRole, onWatchIntro }) => {
     {
       id: 'management',
       name: 'Management',
-      customLogo: '/management-logo.png',
+      customLogo: './management-logo.png',
       accentBorder: 'hover:border-blue-500 hover:ring-4 hover:ring-blue-500/10'
     },
     {
       id: 'library',
       name: 'Library Section',
-      customLogo: '/library-logo.png',
+      customLogo: './library-logo.png',
       accentBorder: 'hover:border-cyan-500 hover:ring-4 hover:ring-cyan-500/10'
     },
     {
       id: 'placement',
       name: 'Placement Cell',
-      customLogo: '/placement-logo.png',
+      customLogo: './placement-logo.png',
       accentBorder: 'hover:border-emerald-500 hover:ring-4 hover:ring-emerald-500/10'
     }
   ];
