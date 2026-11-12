@@ -158,7 +158,7 @@ export const RoleLogin = ({ roleId, onBack, onLoginSuccess }) => {
       {/* Official Header Banner */}
       <div className="relative z-10 w-full max-w-md mb-4 flex justify-center">
         <img
-          src="/avn-header.png"
+          src="./avn-header.png"
           alt="AVN Institute of Engineering & Technology"
           className="h-11 sm:h-13 w-auto max-w-full object-contain rounded-lg shadow-xs"
         />

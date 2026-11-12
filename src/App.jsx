@@ -56,7 +56,7 @@ export function App() {
       {/* Blended Institutional Watermark with smooth radial feathering & enhanced visibility */}
       <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden select-none">
         <img
-          src="/avn-watermark.png"
+          src="./avn-watermark.png"
           alt="AVNIET Watermark"
           className="w-[500px] sm:w-[620px] md:w-[740px] max-w-[85vw] object-contain select-none pointer-events-none mix-blend-multiply opacity-[0.15] filter blur-[0.3px]"
           style={{

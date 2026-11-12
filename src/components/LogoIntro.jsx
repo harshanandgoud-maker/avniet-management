@@ -132,8 +132,8 @@ export const LogoIntro = ({ onComplete }) => {
           {/* ========================================================================= */}
           <video
             ref={videoRef}
-            src="/avn-3d-logo.mp4"
-            poster="/avn-3d-logo-poster.jpg"
+            src="./avn-3d-logo.mp4"
+            poster="./avn-3d-logo-poster.jpg"
             autoPlay
             muted={isMuted}
             playsInline

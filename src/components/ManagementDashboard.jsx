@@ -102,7 +102,7 @@ export const ManagementDashboard = ({ currentUser, portalData, onUpdateTasks, on
         <div className="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="/avn-logo.png"
+              src="./avn-logo.png"
               alt="AVN Logo"
               className="w-12 h-12 object-contain rounded-xl shadow-xs flex-shrink-0"
             />

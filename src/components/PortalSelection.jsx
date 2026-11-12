@@ -37,7 +37,7 @@ export const PortalSelection = ({ onSelectRole, onWatchIntro }) => {
       <header className="relative z-20 w-full bg-white border-b border-slate-200 shadow-xs py-3 sm:py-5 px-4">
         <div className="max-w-6xl mx-auto flex items-center justify-center">
           <img
-            src="/avn-header.png"
+            src="./avn-header.png"
             alt="AVN Institute of Engineering & Technology - Accredited by NBA and NAAC"
             className="h-14 sm:h-20 md:h-24 w-auto max-w-full object-contain rounded-xl shadow-xs"
           />
@@ -118,7 +118,7 @@ export const PortalSelection = ({ onSelectRole, onWatchIntro }) => {
       {/* Footer Info */}
       <footer className="relative z-10 max-w-6xl mx-auto w-full px-4 sm:px-8 py-5 border-t border-slate-200/80 flex flex-col sm:flex-row items-center justify-between text-sm text-slate-600 gap-3">
         <div className="flex items-center gap-2.5">
-          <img src="/avn-logo.png" alt="AVN Logo" className="w-7 h-7 object-contain" />
+          <img src="./avn-logo.png" alt="AVN Logo" className="w-7 h-7 object-contain" />
           <span className="font-bold text-slate-800">AVN Institute of Engineering & Technology</span>
           <span className="text-slate-300">•</span>
           <span className="text-slate-500">Autonomous Campus Network</span>
